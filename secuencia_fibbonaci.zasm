@@ -1,0 +1,17 @@
+VAR delay
+ADD-IM delay 1 // Cambia este numero para cambiar el delay en segundos
+VAR loop_address
+ADD-IM loop_address 6
+VAR a
+VAR b
+ADD-IM b 1
+VAR tmp
+PRINT-NUM b
+ADD tmp a
+ADD tmp b
+VAR a
+ADD a b
+VAR b
+ADD b tmp
+SLEEP delay
+JMP ONE loop_address

@@ -1,0 +1,13 @@
+// <Comentario>
+SLEEP <Variable con tiempo en segundos>
+JMP <Var con Flag (0/1)> <Var con direccion>
+NOR <VarA> <VarB> <Var Salida>
+A<B <VarA> <VarB> <Var Salida>
+A>B <VarA> <VarB> <Var Salida>
+A=B <VarA> <VarB> <Var Salida>
+VAR <Nombre>
+PC-GET <Var Destino>
+ADD-IM <VarA> <Cantidad a incrementar en valor>
+ADD <VarA> <VarB>
+PRINT-NUM <VarA>
+ROUND <VarA> <Num de Decimales>
